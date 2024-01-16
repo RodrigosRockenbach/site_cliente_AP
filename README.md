@@ -1,2 +1,10 @@
 # site_cliente_AP
- Site eletricista
+ Site responsivo para um eletricista!
+
+Será utilizado para seu desenvolvimento:
+  -> Html;
+  -> Css;
+  -> Boostrap;
+  -> JavaScript.
+
+  
