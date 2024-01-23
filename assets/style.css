@@ -7,16 +7,7 @@
     
 }
 
-article{
-    background-color: #F1E702;
-    
-}
-
-section{
-    color: black;
-    border: solid 1px black;
-}
-
-aside{
-    color: black;
+#bg_img{
+    background-size: cover;
+    min-height: 40vh;
 }

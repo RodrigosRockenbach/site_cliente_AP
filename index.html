@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Apratto</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -50,52 +51,44 @@
         </nav>
     </header>
 
-    
-    <!--<article class="p-5">
-        <section class="p-5">
-            <h4>Serviços de instalações elétricas</h3>
-            <p>Frase marcante</p>
-            <h1>(51) 9 9999-9999</h1>
-        </section>
-
-        <aside class="p-5">
-          <h4>Experiência Profissional</h4>
-          <p>Foto</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos dignissimos eveniet ut cumque illum pariatur laborum minima incidunt itaque odio facere ratione fugit earum similique, nisi voluptate labore accusamus!</p>
-        </aside>
-    </article>-->
-    <div class="m-5">
-
-    </div>
-
-    <div class="container-fluid p-5 bg-secondary">
+    <!--Imagem de fundo com div form e contato-->
+    <aside class="container-fluid bg-image p-5" id="bg_img" style="background-image: url('./assets/bg_imagemAP.jpg');">
       <div class="row">
-        <div class="col-sm-7 p-5">
-          <!--<form action="/action_page.js">
-            <input type="text" name="nome" id="nome">
-            <br>
-            <textarea name="message" rows="10" cols="35">The cat was playing in the garden.</textarea>
-          </form>-->
-          <div class="container-fluid bg-light p-5"> </div>
-          <button type="button" class="btn btn-warning float-end m-3">Enviar</button>
-        </div>
+        <!--Formulario de envio para o email-->
+        <div class="col-sm-7">
+          <form action="https://formsubmit.co/rodrockenbach@gmail.com" method="POST" id="form-contato">
+            <input type="hidden" name="_autoresponse" value="Recebemos seu email. Obrigado pelo contato te responderemos logo.">
+            <input class="form-control mt-3" type="text" name="nome" id="nome" placeholder="Nome">
+            <input class="form-control mt-3" type="email" name="email" id="email" placeholder="E-mail">
+            <textarea class="form-control mt-3 pb-5" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+            <button type="submit" class="btn btn-warning mt-3 mb-3 text-light">Enviar</button>
+          </form>
 
-        <div class="col-sm-5">
-          <h5><strong>Endereço:</strong></h5>
-            <p>Rua, não sei, 000 Centro - Capão da Canoa/RS</p>
-          <h5><strong>Contatos:</strong></h5>
-            <p>(51) 9 9999-9999</p>
-            <p>qualqueremail@gmail.com</p>
-            <p>@aprattosolucoeseletricas</p>
+          <div class="alert alert-danger d-none">
+            <p>Preencha o campo <span id="campo-erro"></span>!</p>
+          </div>
+        <!--Espaço destinado aos dados de contatos-->
         </div>
+        <div class="col-sm-5 mt-3">
+          <h5>Endereço: </h5>
+          <p>Rua abcdef, 000, Centro - Capão da Canoa/RS</p>
+          <h5>Celular: </h5>
+          <p>(51) 9 9999-9999</p>
+          <h5>Email: </h5>
+          <p>seuemail@email.com</p>
+          <h5>Instagram: </h5>
+          <p>@seu_intagram</p>
+        </div>
+        
       </div>
-    </div>
+    </aside>
 
     <footer class="bg-dark p-5 text-center">
        <h6> <strong>© Desde 2024 - Por Jonas Apratto. Todos os direitos reservados.</strong></h6> 
 
     </footer>
-    
-    
+
+
+<script src="assets/script.js"></script>
 </body>
 </html>
