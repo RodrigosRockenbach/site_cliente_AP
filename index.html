@@ -8,11 +8,13 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--Icons bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Apratto</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
+    <nav>
         <!--Barra de navegação com logotipo e link's responsivo-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-4">
           <div class="container-fluid">
@@ -42,17 +44,40 @@
                     <a class="nav-link" href="#">Obras</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#aside">Contato</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </nav>
+    </nav>
+
+    <header>
+      <div class="container-fluid row">
+        <div class="col-sm p-5">
+          <h1>O eletricista está aqui para iluminar o mundo!</h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi voluptatibus deserunt tenetur voluptas, sequi non id necessitatibus ad officia sed obcaecati quos repellendus assumenda? Neque incidunt autem molestiae accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore quaerat quidem nam quae pariatur similique in impedit eligendi temporibus error, blanditiis aliquam non ea culpa fugiat. Atque, iure consequuntur!
+        </div>
+        <div class="col-sm">
+          <button class="bi bi-telephone-fill btn btn-warning  float-end m-3"> 
+            <strong class="text-dark">Urgência <br>
+              <a href="tel:+5551999701621" class="fs-5" style="color: inherit;">(51) 9 9999-9999</a>
+            </strong>
+          </button>
+        </div>
+      </div>
     </header>
 
+    <section></section>
+    
+    <article class="p-5">
+      <h4><strong class="text-dark">TODOS</strong></h4>
+      
+    </article>
+
     <!--Imagem de fundo com div form e contato-->
-    <aside class="container-fluid bg-image p-5" id="bg_img" style="background-image: url('./assets/bg_imagemAP.jpg');">
+    <aside class="container-fluid p-5">
       <div class="row">
         <!--Formulario de envio para o email-->
         <div class="col-sm-7">
@@ -61,7 +86,7 @@
             <input class="form-control mt-3" type="text" name="nome" id="nome" placeholder="Nome">
             <input class="form-control mt-3" type="email" name="email" id="email" placeholder="E-mail">
             <textarea class="form-control mt-3 pb-5" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
-            <button type="submit" class="btn btn-warning mt-3 mb-3 text-light">Enviar</button>
+            <button type="submit" class="btn btn-warning mt-3 mb-3 text-dark">Enviar</button>
           </form>
 
           <div class="alert alert-danger d-none">
@@ -69,14 +94,17 @@
           </div>
         <!--Espaço destinado aos dados de contatos-->
         </div>
-        <div class="col-sm-5 mt-3">
-          <h5>Endereço: </h5>
+        <div class="col-sm-5 mt-3" >
+          <h5 class="bi bi-geo-alt-fill text-warning"> Endereço: </h5>
           <p>Rua abcdef, 000, Centro - Capão da Canoa/RS</p>
-          <h5>Celular: </h5>
+
+          <h5 class="bi bi-telephone-fill text-warning"> Celular: </h5>
           <p>(51) 9 9999-9999</p>
-          <h5>Email: </h5>
+
+          <h5 class="bi bi-envelope-fill text-warning"> Email: </h5>
           <p>seuemail@email.com</p>
-          <h5>Instagram: </h5>
+
+          <h5 class="bi bi-instagram text-warning"> Instagram: </h5>
           <p>@seu_intagram</p>
         </div>
         

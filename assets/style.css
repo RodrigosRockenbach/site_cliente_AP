@@ -7,6 +7,21 @@
     
 }
 
+header{
+    background-image: url('../assets/bg_img_Principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+aside{
+    background-image: url('../assets/bg_imagemAP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
 #bg_img{
     background-size: cover;
     min-height: 40vh;
