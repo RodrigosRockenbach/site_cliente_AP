@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <!--NavBar-->
     <nav>
         <!--Barra de navegação com logotipo e link's responsivo-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-4">
@@ -53,26 +54,53 @@
         </nav>
     </nav>
 
+    <!--Descrição sobre a empresa-->
     <header>
       <div class="container-fluid row">
         <div class="col-sm p-5">
           <h1>O eletricista está aqui para iluminar o mundo!</h1>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi voluptatibus deserunt tenetur voluptas, sequi non id necessitatibus ad officia sed obcaecati quos repellendus assumenda? Neque incidunt autem molestiae accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore quaerat quidem nam quae pariatur similique in impedit eligendi temporibus error, blanditiis aliquam non ea culpa fugiat. Atque, iure consequuntur!
+          <br>
+          <div class="text-center">
+            <button type="button" class="btn btn-outline-light  bi-telephone-fill bg-dark mt-5">
+              <strong>Urgência<br>
+                <a href="tel:+05551999701621" class="p-3" style="color: inherit;">(51) 9 9999-9999</a>
+              </strong>
+            </button>
+          </div>  
+
         </div>
-        <div class="col-sm">
-          <button class="bi bi-telephone-fill btn btn-warning  float-end m-3"> 
-            <strong class="text-dark">Urgência <br>
-              <a href="tel:+5551999701621" class="fs-5" style="color: inherit;">(51) 9 9999-9999</a>
-            </strong>
-          </button>
-        </div>
+        <div class="col-sm"></div>
       </div>
     </header>
 
     <section></section>
     
-    <article class="p-5">
-      <h4><strong class="text-dark">TODOS</strong></h4>
+    <!--Seriços prestados-->
+    <article class="container-fluid p-5">
+      <h3 class="text-dark text-center">Serviços</h3>
+      <div class="row">
+        <div class="col-sm p-3">
+          <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/domestic_img.jpg');">
+            <h2><strong>DOMESTIC</strong></h2>
+          </div> 
+          <p class="text-dark p-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima dolores provident, cupiditate iusto ab, quidem rerum magnam impedit expedita! Numquam dolorem alias ex porro culpa similique soluta nam.</p>
+        </div>
+
+        <div class="col-sm p-3">
+          <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/comercial_img.jpg');">
+          <h2><strong>COMERCIAL</strong></h2>
+          </div> 
+          <p class="text-dark p-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima dolores provident, cupiditate iusto ab, quidem rerum magnam impedit expedita! Numquam dolorem alias ex porro culpa similique soluta nam.</p>
+        </div>
+        
+        <div class="col-sm p-3">
+          <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/industrial_img.jpg');">
+          <h2><strong>INDUSTRIAL</strong></h2>
+          </div> 
+          <p class="text-dark p-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima dolores provident, cupiditate iusto ab, quidem rerum magnam impedit expedita! Numquam dolorem alias ex porro culpa similique soluta nam.</p>
+        </div>
+      </div>
       
     </article>
 
