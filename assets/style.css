@@ -9,9 +9,11 @@
 
 header{
     background-image: url('../assets/bg_img_Principal.jpg');
+    opacity:unset;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 aside{
@@ -19,12 +21,14 @@ aside{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center
+    
 }
 
 #bg_img{
     background-size: cover;
     min-height: 40vh;
 }
+
 
 .card-img{
     width: 100%;
@@ -44,3 +48,7 @@ aside{
     transform: scale(1.1);
 }
 
+.linha{
+    padding: 60px;
+    text-align: center;
+}
