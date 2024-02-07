@@ -1,10 +1,26 @@
 *{
-    /*background-color: rgb(1, 1, 39);
-    border: solid 1px black;*/
     margin: 0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.divLogo{
+    display: flex;
+    padding-left: 5rem;
     
+}
+
+.div_menu{
+    width: 40%;
+    
+}
+
+@media (max-width: 574px){
+    #collapsibleNavbar{
+        padding-top: 50px;
+        text-align: center;
+        transition: all;
+    }
 }
 
 header{
@@ -52,3 +68,4 @@ aside{
     padding: 60px;
     text-align: center;
 }
+
