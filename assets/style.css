@@ -4,15 +4,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Estilização da navbar*/
 .divLogo{
     display: flex;
-    padding-left: 5rem;
-    
+    padding-left: 5rem;   
 }
 
 .div_menu{
     width: 40%;
-    
 }
 
 @media (max-width: 574px){
@@ -23,13 +22,18 @@
     }
 }
 
+/*Imagem de fundo header e efeito do botão*/
 header{
-    background-image: url('../assets/bg_img_Principal.jpg');
-    opacity:unset;
-    background-repeat: no-repeat;
+    background-image: url('../assets/bg_img_Header.jpg');
     background-size: cover;
     background-position: center;
-    
+    text-align: justify;
+}
+
+.confEfeito{
+    transition: transform 0.5s;
+}.confEfeito:hover{
+    transform: scale(1.1);
 }
 
 aside{
@@ -44,7 +48,6 @@ aside{
     background-size: cover;
     min-height: 40vh;
 }
-
 
 .card-img{
     width: 100%;
@@ -63,9 +66,3 @@ aside{
 .btn_efeito:hover{
     transform: scale(1.1);
 }
-
-.linha{
-    padding: 60px;
-    text-align: center;
-}
-
