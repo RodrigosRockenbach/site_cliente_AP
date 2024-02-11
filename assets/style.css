@@ -36,6 +36,31 @@ header{
     transform: scale(1.1);
 }
 
+/*Img e descrição profissional estilização*/
+.overlayImg {
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: solid 5px white;
+}
+
+.text1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.test{
+    border-top: solid 1px white;
+    border-left: solid 1px white;
+    border-bottom: solid 1px white;
+
+}
+
+
+/*------------------------------------*/
 aside{
     background-image: url('../assets/bg_imagemAP.jpg');
     background-repeat: no-repeat;
