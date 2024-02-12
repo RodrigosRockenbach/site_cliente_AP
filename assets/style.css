@@ -24,7 +24,7 @@
 
 /*Imagem de fundo header e efeito do botão*/
 header{
-    background-image: url('../assets/bg_img_Header.jpg');
+    background-image: url('./image/bg_img_Header.jpg');
     background-size: cover;
     background-position: center;
     text-align: justify;
@@ -44,7 +44,7 @@ header{
 }
 
 aside{
-    background-image: url('../assets/bg_contato.jpg');
+    background-image: url('./image/bg_contato.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;   
