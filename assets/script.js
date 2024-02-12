@@ -1,5 +1,3 @@
-
-
 $('#form-contato').submit(function(){
     var nome = $('#nome');
     var email = $('#email');
@@ -46,4 +44,6 @@ $('#form-contato').submit(function(){
     // se chegar aqui, enviar os dados!
     return true;
 });
+
+
 
