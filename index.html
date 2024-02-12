@@ -21,7 +21,7 @@
           <div class="container-fluid">
             <!--Logo da navBar-->
             <div class="divLogo">
-              <a class="navbar-brand text-center" href="#">
+              <a class="navbar-brand text-center" href="#inicio">
                 <h1>Apratto</h1>
                 <h6><small>Soluções Elétricas</small></h6>
               </a>
@@ -35,19 +35,19 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav row">
                   <li class="nav-item col-sm">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#inicio">Home</a>
                   </li>
                   <li class="nav-item col-sm">
-                    <a class="nav-link" href="#">Empresa</a>
+                    <a class="nav-link" href="#divEmpresa">Empresa</a>
                   </li>
                   <li class="nav-item col-sm">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#article">Serviços</a>
                   </li>
                   <li class="nav-item col-sm">
                     <a class="nav-link" href="#">Obras</a>
                   </li>
                   <li class="nav-item col-sm">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#aside">Contato</a>
                   </li>
                 </ul>
               </div>
@@ -57,7 +57,7 @@
     </nav>
 
     <!--Descrição sobre a empresa-->
-    <header>
+    <header id="inicio">
       <div class="container-fluid row p-5">
        <div class="col-sm-7">
           <h1>O eletricista está aqui para iluminar o mundo!</h1>
@@ -73,61 +73,54 @@
       </div>
     </header>
     
-    <!--Espaço destinado a descrição - Experiencia Profisional-->
-    <div class="container-fluid" style="background-color: black;">
-      <div class="row">
+    <!--Espaço destinado a Experiencia Profisional-->
+    <div class="container-fluid" id="divEmpresa">
+      <div class="row p-5">
         <!--Imagem do user-->
-        <div class="col-sm mt-5">
-          <img src="./assets/ImgHF.png" class="col-sm overlayImg">
+        <div class="col-sm"></div>
+        <div class="col-sm-4">
+          <img src="./assets/ImgHF.png" class="overlayImg confEfeito">
         </div>
         <!--Div com o texto-->
-        <div class="col-sm-8 p-5 test mt-5 mb-5"> 
-          <hr style="width: 40%; float: right; color: yellow;">
+        <div class="col-sm-7 text-dark p-3"> 
           <h1>Experiencia Profissional</h1>
+          <hr>
           <br>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maxime repellat. Error aliquam rem enim, explicabo exercitationem dicta maxime praesentium pariatur, doloribus ipsam nisi aliquid ducimus necessitatibus debitis ratione! Nihil!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur eius placeat sapiente modi ratione facere tempora harum, aperiam debitis voluptatibus dolorum soluta itaque atque omnis praesentium, distinctio numquam repellat?</p>
+          <p style="text-align: justify; color: black;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maxime repellat. Error aliquam rem enim, explicabo exercitationem dicta maxime praesentium pariatur, doloribus ipsam nisi aliquid ducimus necessitatibus debitis ratione! Nihil!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur eius placeat sapiente modi ratione facere tempora harum, aperiam debitis voluptatibus dolorum soluta itaque atque omnis praesentium, distinctio numquam repellat?</p>
         </div>
       </div>
     </div>
 
-    <!--Div missão, visão e valores-->
-    <div class="container-fluid p-5 bg-dark">
-      <div class="text-center mb-5">
-        <h3>SOLICITE UMA VISITA TÉCNICA </h3>
-        <br>
-        <h6>* ATENDIMENTO 24 HORAS PARA EMERGÊNCIA</h6>
-        <p><strong>(51) 9 9999-9999</strong></p>
-      </div>
-      
-      <hr style="width: 60%; margin: auto;">
-
-      <div class="p-5 container ">
-        <h3 class="text-center">MISSÃO, VISÃO  E  VALORES</h3>
-        <div class="row">
-          <div class="col-sm text-center">
-            <img src="./assets/alvo.png" style="width: 100px;">
-            <h4>MISSÃO</h4>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus architecto, veniam molestiae quisquam porro? </p>
-          </div>
-          <div class="col-sm text-center">
-            <img src="./assets/visao-da-empresa.png" style="width: 100px; padding: 15px;" >
-            <h4>VISÃO</h4>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus architecto, veniam molestiae quisquam porro? </p>
-          </div>
-          <div class="col-sm text-center">
-            <img src="./assets/valor-alto.png" style="width: 100px; padding: 20px;" >
-            <h4>VALORES</h4>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus architecto, veniam molestiae quisquam porro? </p>
-          </div>
+   <!--Div missão, visão e valores-->
+   <div class="container-fluid p-5 bg-dark">
+    <div class="container">
+      <h3 class="text-center">MISSÃO, VISÃO  E  VALORES</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm text-center">
+          <img src="./assets/flecha-no-alvo.png" style="width: 100px; padding: 12px;">
+          <h4>MISSÃO</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus architecto, veniam molestiae quisquam porro? </p>
+        </div>
+        <div class="col-sm text-center">
+          <img src="./assets/visao.png" style="width: 100px; padding: 10px;">
+          <h4>VISÃO</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus architecto, veniam molestiae quisquam porro? </p>
+        </div>
+        <div class="col-sm text-center">
+          <img src="./assets/valor.png" style="width: 100px; padding: 16px;" >
+          <h4>VALORES</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus architecto, veniam molestiae quisquam porro? </p>
         </div>
       </div>
     </div>
+  </div>
     
-    <!--Seriços prestados-->
-    <article class="container-fluid p-5">
+    <!--Serviços prestados-->
+    <article class="container-fluid p-5" id="article">
       <h3 class="text-dark text-center">Serviços</h3>
       <div class="row">
         <div class="col-sm p-3 confEfeito">
@@ -154,8 +147,28 @@
       
     </article>
 
+    <!--Solicite uma visita Maps-->
+    <div class="container-fluid bg-dark p-5">
+      <div class="row">
+        <div class="col-sm-7 text-justify p-5">
+          <h2>SOLICITE UMA VISITA TÉCNICA</h2> 
+          <hr>
+          <p>* ATENDIMENTO 24 HORAS PARA EMERGÊNCIA</p>
+          <h4 style="padding-top: 10px; text-align: center;">
+            <a class="bi-telephone-fill" href="tel:+05551999701621" style="text-decoration: none; color: inherit;"><strong> (51) 9 9999-9999</strong></a>
+          </h4>
+          
+        </div>
+
+        <div class="col-sm">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13854.351357419548!2d-50.0191054!3d-29.7606394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95228277050ea41f%3A0x27cb87737b797bbc!2sLojas%20Lebes!5e0!3m2!1spt-BR!2sbr!4v1707685812233!5m2!1spt-BR!2sbr" style="border:0; width: 100%; height: 250px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      
+    </div>
+
     <!--Imagem de fundo com div form e contato-->
-    <aside class="container-fluid p-5">
+    <aside class="container-fluid p-5" id="aside">
       <div class="row">
         <!--Formulario de envio para o email-->
         <div class="col-sm-7">
@@ -164,15 +177,16 @@
             <input class="form-control mt-3" type="text" name="nome" id="nome" placeholder="Nome">
             <input class="form-control mt-3" type="email" name="email" id="email" placeholder="E-mail">
             <textarea class="form-control mt-3 pb-5" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
-            <button type="submit" class="btn btn-warning mt-3 mb-3 text-dark">Enviar</button>
+            <button type="submit" class="btn btn-warning mt-3 mb-3 text-light confEfeito">Enviar</button>
           </form>
-
+          <!--Campo de erro-->
           <div class="alert alert-danger d-none">
-            <p>Preencha o campo <span id="campo-erro"></span>!</p>
+            <p style="color: black;">Preencha o campo <span id="campo-erro" style="color: black;"></span>!</p>
           </div>
+
         <!--Espaço destinado aos dados de contatos-->
         </div>
-        <div class="col-sm-5 mt-3" >
+        <div class="col-sm-5" >
           <h5 class="bi bi-geo-alt-fill text-warning"> Endereço: </h5>
           <p>Rua abcdef, 000, Centro - Capão da Canoa/RS</p>
 
@@ -189,12 +203,11 @@
       </div>
     </aside>
 
-    <footer class="bg-dark p-5 text-center">
+    <footer class="bg-dark p-5 text-center ">
        <h6> <strong>© Desde 2024 - Por Jonas Apratto. Todos os direitos reservados.</strong></h6> 
 
     </footer>
 
-
-    <script src="assets/script.js"></script>
 </body>
+<script src="assets/script.js"></script>
 </html>
