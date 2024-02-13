@@ -28,7 +28,9 @@ header{
     background-size: cover;
     background-position: center;
     text-align: justify;
+    opacity: 0.8;
 }
+
 
 .confEfeito{
     transition: transform 0.5s;
@@ -47,7 +49,9 @@ aside{
     background-image: url('./image/bg_contato.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;
+    opacity: 0.8;
+    
 }
 
 .card-img{
