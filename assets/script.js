@@ -45,5 +45,14 @@ $('#form-contato').submit(function(){
     return true;
 });
 
+//Div Oculta no Html 
+const oculto = document.querySelector("#divOculta");
 
+function showMore() {
+    if(oculto.style.display === 'block') {
+      oculto.style.display = 'none';
+    } else{
+      oculto.style.display = 'block';
+    }
+}
 
