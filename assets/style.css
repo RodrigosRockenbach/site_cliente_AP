@@ -31,7 +31,7 @@ header{
     opacity: 0.8;
 }
 
-
+/* Efeito do das image/button/whats */
 .confEfeito{
     transition: transform 0.5s;
 }.confEfeito:hover{
@@ -74,4 +74,9 @@ aside{
     bottom: 1%;
     right: 1%;
     
+}
+
+/* Deixando a div Oculta article */
+.hidden {
+    display: none;
 }

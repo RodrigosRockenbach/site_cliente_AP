@@ -45,14 +45,16 @@ $('#form-contato').submit(function(){
     return true;
 });
 
-//Div Oculta no Html 
-const oculto = document.querySelector("#divOculta");
+// Fazer a div oculta aparecer quando clicar no card
+const toggleButtons = document.querySelectorAll('.toggleButton');
+const hiddenDivs = document.querySelectorAll('.hiddenDiv');
 
-function showMore() {
-    if(oculto.style.display === 'block') {
-      oculto.style.display = 'none';
-    } else{
-      oculto.style.display = 'block';
+toggleButtons.forEach((button, index) => {
+  button.addEventListener('click', function() {
+    if (hiddenDivs[index].classList.contains('hidden')) {
+      hiddenDivs[index].classList.remove('hidden');
+    } else {
+      hiddenDivs[index].classList.add('hidden');
     }
-}
-
+  });
+});

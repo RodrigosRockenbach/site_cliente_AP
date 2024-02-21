@@ -122,46 +122,81 @@
     <article class="container-fluid p-5" id="article">
       <h3 class="text-dark text-center">Serviços</h3>
       <div class="row">
-        <div class="col-sm p-3 confEfeito"  onclick="showMore()">
-          <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/image/domestic_img.jpg');">
+        <!-- Tudo sobre os serviços DOMESTICOS -->
+        <div class="col-sm-4 p-3 confEfeito toggleButton">
+          <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/image/domestic_img.jpg'); background-repeat: no-repeat;">
             <h2><strong>DOMÉSTICO</strong></h2>
           </div> 
           <p class="text-dark p-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima dolores provident, cupiditate iusto ab, quidem rerum magnam impedit expedita! Numquam dolorem alias ex porro culpa similique soluta nam.</p>
         </div>
-
-        <div class="col-sm p-3 confEfeito">
+          <!-- Images de projetos Domesticos -->
+          <div class="container p-5 hidden hiddenDiv">
+            <h3 class="text-center"><strong class="text-dark">Projetos Domesticos</strong></h3>
+            <br>
+            <div class="row">
+              <img class="col-sm-4 p-3 confEfeito" src="./assets/image/Domestico/escada.jpg" alt="Escada" style="width: 350px;">
+              <div class="col-sm-8">
+                <div class="row justify-content-between">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Chuveiro.jpg" alt="Chuveiro">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Ventilador.jpg" alt="Ventilador">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/lustre.jpg" alt="Lustre">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/piscina.jpg" alt="Piscina">
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <!-- Tudo sobre os serviços   COMERCIAL -->
+        <div class="col-sm-4 p-3 confEfeito toggleButton">
           <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/image/comercial_img.jpg');">
           <h2><strong>COMERCIAL</strong></h2>
           </div> 
           <p class="text-dark p-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima dolores provident, cupiditate iusto ab, quidem rerum magnam impedit expedita! Numquam dolorem alias ex porro culpa similique soluta nam.</p>
         </div>
+          <!-- Images de projetos Comercial -->
+          <div class="container p-5 hidden hiddenDiv">
+            <h3 class="text-center"><strong class="text-dark">Projetos Comercial</strong></h3>
+            <br>
+            <div class="row">
+              <img class="col-sm-4 p-3 confEfeito" src="./assets/image/Domestico/escada.jpg" alt="Escada" style="width: 350px;">
+              <div class="col-sm-8">
+                <div class="row justify-content-between">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Chuveiro.jpg" alt="Chuveiro">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Ventilador.jpg" alt="Ventilador">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/lustre.jpg" alt="Lustre">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/piscina.jpg" alt="Piscina">
+                </div>
+              </div>
+            </div>
+          </div>
         
-        <div class="col-sm p-3 confEfeito">
+        <!-- Tudo sobre os serviços INDUSTRIAL -->
+        <div class="col-sm-4 p-3 confEfeito toggleButton">
           <div class="card-img d-flex flex-wrap align-content-center justify-content-center" style="background-image: url('./assets/image/industrial_img.jpg');">
           <h2><strong>INDUSTRIAL</strong></h2>
           </div> 
           <p class="text-dark p-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima dolores provident, cupiditate iusto ab, quidem rerum magnam impedit expedita! Numquam dolorem alias ex porro culpa similique soluta nam.</p>
         </div>
+          <!-- Images de projetos Industrial -->
+          <div class="container p-5 hidden hiddenDiv">
+            <h3 class="text-center"><strong class="text-dark">Projetos Industrial</strong></h3>
+            <br>
+            <div class="row">
+              <img class="col-sm-4 p-3 confEfeito" src="./assets/image/Domestico/escada.jpg" alt="Escada" style="width: 350px;">
+              <div class="col-sm-8">
+                <div class="row justify-content-between">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Chuveiro.jpg" alt="Chuveiro">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Ventilador.jpg" alt="Ventilador">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/lustre.jpg" alt="Lustre">
+                  <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/piscina.jpg" alt="Piscina">
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </article>
 
-    <!-- Images de projetos Domesticos -->
-    <div class="container p-5" id="divOculta">
-      <h3 class="text-center"><strong class="text-dark">Projetos Domesticos</strong></h3>
-      <br>
-      <div class="row">
-        <img class="col-sm-4 p-3 confEfeito" src="./assets/image/Domestico/escada.jpg" alt="Escada" style="width: 350px;">
-        <div class="col-sm-8">
-          <div class="row justify-content-between">
-            <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Chuveiro.jpg" alt="Chuveiro">
-            <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/Ventilador.jpg" alt="Ventilador">
-            <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/lustre.jpg" alt="Lustre">
-            <img class="col-sm-6 p-3 confEfeito" src="./assets/image/Domestico/piscina.jpg" alt="Piscina">
-          </div>
-        </div>
-      </div>
-      
-    </div>
+    
 
     <!--Solicite uma visita Maps-->
     <div class="container-fluid bg-dark p-5">
